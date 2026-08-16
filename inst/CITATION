@@ -1,0 +1,13 @@
+bibentry(
+  bibtype = "Manual",
+  title = "eduResearchR: A Collection of Educational Datasets for Research and Statistical Analysis",
+  author = person(
+    given = "Jorge",
+    family = "Marmanillo Santana",
+    email = "jlmarmanillo@gmail.com",
+    comment = c(ORCID = "0009-0003-4485-0744")
+  ),
+  year = 2026,
+  note = "R package version 0.1.0",
+  url = "https://github.com/jlmarmanillo-jlms/eduResearchR"
+)

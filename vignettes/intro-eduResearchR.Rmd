@@ -1,0 +1,38 @@
+---
+title: "intro-eduResearchR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{intro-eduResearchR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(eduResearchR)
+```
+## Overview
+`eduResearchR` is a curated collection of educational datasets designed to support empirical research and quantitative data analysis.
+
+## Getting Started
+To begin using the datasets in your analysis or classes, load the package and call any of the 15 included datasets. For example, to load and inspect the `STARplus` dataset:
+
+```{r example}
+library(eduResearchR)
+data("STARplus")
+head(STARplus, 5)
+```
+
+## Available Datasets
+The package includes various educational and social science datasets sourced from standard repositories, covering areas such as student performance, school evaluations, and longitudinal studies. You can explore the detailed documentation for any dataset using the help command:
+
+```{r help_example, eval=FALSE}
+?STARplus
+?pisausa
+?CASchools

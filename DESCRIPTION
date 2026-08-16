@@ -1,0 +1,43 @@
+Package: eduResearchR
+Type: Package
+Title: A Collection of Educational Datasets for Research and Statistical Analysis
+Version: 0.1.0
+Authors@R: 
+    person(
+        given = "Jorge",
+        family = "Marmanillo Santana",
+        role = c("aut", "cre"),
+        email = "jlmarmanillo@gmail.com",
+        comment = c(ORCID = "0009-0003-4485-0744")
+    )
+Maintainer: Jorge Luis Marmanillo Santana <jlmarmanillo@gmail.com>
+Description: eduResearchR is an R data package that collects and organizes datasets
+    related to education and educational research, sourced from various packages
+    and repositories within the R ecosystem. The core objective is to provide
+    users with a curated collection of educational data ready for statistical
+    analysis immediately upon installation. This package is designed to assist
+    students, researchers, and education professionals who require datasets to
+    practice statistical analysis or conduct research. It facilitates direct
+    work with data for descriptive analysis, correlations, regression, group
+    comparison, hypothesis testing, data visualization, statistical modeling,
+    and academic projects, including master's and doctoral theses. eduResearchR
+    gathers selected educational datasets to streamline statistical analysis and
+    educational research in R.
+License: GPL-3
+Language: en
+URL: https://github.com/jlmarmanillo-jlms/eduResearchR.git, https://github.com/jlmarmanillo-jlms/eduResearchR
+BugReports: https://github.com/jlmarmanillo-jlms/eduResearchR/issues
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 4.1.0)
+Imports: 
+Suggests: 
+    ggplot2,
+    testthat (>= 3.0.0),
+    dplyr,
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
