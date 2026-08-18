@@ -23,7 +23,7 @@ Description: eduResearchR is an R data package that collects and organizes datas
     and academic projects, including master's and doctoral theses. eduResearchR
     gathers selected educational datasets to streamline statistical analysis and
     educational research in R.
-License: GPL-3
+License: GPL-3 | file LICENSE
 Language: en
 URL: https://github.com/jlmarmanillo-jlms/eduResearchR.git, https://github.com/jlmarmanillo-jlms/eduResearchR
 BugReports: https://github.com/jlmarmanillo-jlms/eduResearchR/issues
