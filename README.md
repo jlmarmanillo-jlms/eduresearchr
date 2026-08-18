@@ -25,3 +25,6 @@ vignette("intro-eduResearchR", package = "eduResearchR")
 ## Autor
 **Jorge Luis Marmanillo Santana**  
 Mgtr. en Informática Educativa
+
+# Actualización de documentación del paquete
+
