@@ -16,23 +16,136 @@ knitr::opts_chunk$set(
 
 ```{r setup}
 library(eduResearchR)
+library(dplyr)
+library(ggplot2)
+library(knitr)
 ```
+
 ## Overview
-`eduResearchR` is a curated collection of educational datasets designed to support empirical research and quantitative data analysis.
+
+`eduResearchR` is a curated collection of educational datasets designed to support empirical research, quantitative data analysis, statistical modeling, data visualization, and teaching in the field of education.
+
+The package brings together datasets covering different dimensions of educational research, including student performance, schools, classrooms, teachers, educational trajectories, higher education, educational assessment, and international education.
 
 ## Getting Started
-To begin using the datasets in your analysis or classes, load the package and call any of the 15 included datasets. For example, to load and inspect the `STARplus` dataset:
+
+To begin using `eduResearchR`, load the package and access any of its included datasets.
+
+For example, the following code loads and displays the first five observations of the `STARplus` dataset:
 
 ```{r example}
-library(eduResearchR)
 data("STARplus")
 head(STARplus, 5)
 ```
 
 ## Available Datasets
-The package includes various educational and social science datasets sourced from standard repositories, covering areas such as student performance, school evaluations, and longitudinal studies. You can explore the detailed documentation for any dataset using the help command:
 
-```{r help_example, eval=FALSE}
-?STARplus
-?pisausa
-?CASchools
+The first version of `eduResearchR` includes 15 curated educational datasets organized into six major areas of research.
+
+### Students and Performance
+
+1. **`STARplus`** — Student performance, demographic characteristics, grade, school, classroom type, and longitudinal information.
+
+2. **`MathAchieve`** — Student characteristics, socioeconomic status, school, and mathematics achievement.
+
+### School, Classroom and Teachers
+
+3. **`classroom`** — Mathematics achievement, socioeconomic status, teacher experience, and teacher mathematical knowledge.
+
+4. **`schools`** — Student and school characteristics, socioeconomic status, and mathematics achievement.
+
+5. **`apipop`** — Student performance and institutional characteristics of California schools.
+
+6. **`CASchools`** — School performance, teachers, expenditures, income, English learners, and reading and mathematics outcomes.
+
+### Educational Trajectory
+
+7. **`NELS`** — Longitudinal information about students, families, schools, motivation, aspirations, absenteeism, and academic achievement.
+
+8. **`schoolProgram`** — Student characteristics, socioeconomic status, school type, educational program, and academic performance.
+
+### Higher Education
+
+9. **`CollegeDistance`** — Educational attainment and factors such as parental education, income, distance to college, and tuition.
+
+10. **`school`** — Institutional characteristics, enrollment, costs, student aid, and outcomes of higher education institutions.
+
+11. **`STUDENT`** — College GPA and academic and personal characteristics of university students.
+
+12. **`FirstYearGPA`** — First-year college GPA and characteristics related to the transition from secondary to higher education.
+
+### Educational Assessment
+
+13. **`ExamScores`** — Student and school characteristics and examination results, suitable for educational and multilevel analysis.
+
+### International Education
+
+14. **`pisausa`** — PISA 2009 data for U.S. students, including academic, family, and school characteristics.
+
+15. **`EducationLiteracy`** — International information on education and literacy.
+
+## Exploring a Dataset
+
+To illustrate how `eduResearchR` can be used for quantitative educational research, we will work with the `MathAchieve` dataset.
+
+This dataset contains information related to mathematics achievement, socioeconomic status, student characteristics, and schools.
+
+```{r mathachieve-data}
+data("MathAchieve")
+head(MathAchieve, 5)
+```
+
+### Variables in `MathAchieve`
+
+The `MathAchieve` dataset contains the following variables:
+
+```{r mathachieve-variables}
+variables <- data.frame(
+  Variable = names(MathAchieve)
+)
+
+knitr::kable(
+  variables,
+  caption = "Variables included in the MathAchieve dataset"
+)
+```
+
+The main variables included in the dataset are:
+
+- `School`: school identifier.
+- `Minority`: minority status of the student.
+- `Sex`: sex of the student.
+- `SES`: socioeconomic status of the student.
+- `MathAch`: mathematics achievement score.
+- `MEANSES`: mean socioeconomic status of the school.
+
+## Visualization
+
+One possible research question using `MathAchieve` is:
+
+> **Is there a relationship between students' socioeconomic status and their mathematics achievement?**
+
+The following graph visualizes the relationship between `SES` and `MathAch`:
+
+```{r mathachieve-plot, fig.width=7, fig.height=5}
+ggplot(MathAchieve, aes(x = SES, y = MathAch)) +
+  geom_point(alpha = 0.5) +
+  geom_smooth(method = "lm", se = TRUE) +
+  labs(
+    title = "Socioeconomic Status and Mathematics Achievement",
+    subtitle = "MathAchieve dataset",
+    x = "Socioeconomic Status (SES)",
+    y = "Mathematics Achievement"
+  ) +
+  theme_minimal()
+```
+
+The graph allows researchers to visually examine whether differences in socioeconomic status are associated with differences in mathematics achievement.
+
+## Conclusion
+
+`eduResearchR` provides a curated collection of 15 educational datasets that can be used to explore different research questions involving students, classrooms, teachers, schools, educational trajectories, higher education, educational assessment, and international education.
+
+By bringing these datasets together in a single R package, `eduResearchR` facilitates access to educational data for statistical analysis, data visualization, teaching, empirical research, and quantitative educational studies.
+
+The package therefore provides a practical starting point for researchers and students who want to move from educational questions to evidence-based analysis using R.
