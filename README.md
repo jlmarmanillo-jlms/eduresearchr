@@ -1,3 +1,5 @@
+[![License: GPL-3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 # eduResearchR
 
 `eduResearchR` is an R package designed to facilitate access to a curated collection of 15 educational and social science datasets, ready for research and statistical analysis.
