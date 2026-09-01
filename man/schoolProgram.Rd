@@ -5,12 +5,15 @@
 \alias{schoolProgram}
 \title{schoolProgram Dataset}
 \format{
-Data frame: 200 rows, 11 variables.
+Data frame with program characteristics.
+}
+\source{
+U.S. Department of Education.
 }
 \usage{
 schoolProgram
 }
 \description{
-High School and Beyond Survey data on student programs.
+Educational programs and institutional offerings data.
 }
 \keyword{datasets}

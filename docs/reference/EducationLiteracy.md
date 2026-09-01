@@ -1,6 +1,6 @@
 # EducationLiteracy Dataset
 
-Education spending and literacy rates for countries.
+Education and literacy survey metrics.
 
 ## Usage
 
@@ -10,4 +10,8 @@ EducationLiteracy
 
 ## Format
 
-Data frame: 193 rows, 4 variables.
+Data frame with social science indicators.
+
+## Source
+
+Extracted from the carData package (John Fox).

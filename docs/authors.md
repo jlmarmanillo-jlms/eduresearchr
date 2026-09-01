@@ -2,8 +2,28 @@
 
 ## Authors
 
-- **Jorge Marmanillo Santana**. Author, maintainer.
+- **Jorge Luis Marmanillo Santana**. Author, maintainer.
   [](https://orcid.org/0009-0003-4485-0744)
+
+- **Christian Kleiber**. Contributor.\
+  Author of the AER package; original source for CASchools and
+  CollegeDistance.
+
+- **John Fox**. Contributor.\
+  Author of the carData package; original source for EducationLiteracy,
+  ExamScores, and FirstYearGPA.
+
+- **Douglas Bates**. Contributor.\
+  Author of the MEMSS package; original source for MathAchieve.
+
+- **Thomas Lumley**. Contributor.\
+  Author of the survey package; original source for apipop.
+
+- **Jeremy Finn**. Contributor.\
+  Principal investigator; original source for STARplus (Project STAR).
+
+- **Andrew Raudenbush**. Contributor.\
+  Researcher; original source for the classroom dataset.
 
 ## Citation
 

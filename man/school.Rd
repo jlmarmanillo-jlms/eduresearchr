@@ -3,14 +3,17 @@
 \docType{data}
 \name{school}
 \alias{school}
-\title{school Dataset (CollegeScorecard)}
+\title{school Dataset}
 \format{
-Data frame: 11,300 rows, 25 variables.
+Data frame with institutional data.
+}
+\source{
+U.S. Department of Education (College Scorecard metrics).
 }
 \usage{
 school
 }
 \description{
-Information about institutions in the U.S. College Scorecard.
+Institutional metrics and school performance indicators.
 }
 \keyword{datasets}

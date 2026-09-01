@@ -5,12 +5,15 @@
 \alias{ExamScores}
 \title{ExamScores Dataset}
 \format{
-Data frame: 4,059 rows, 10 variables.
+Data frame with academic scores and variables.
+}
+\source{
+Extracted from the carData package (John Fox).
 }
 \usage{
 ExamScores
 }
 \description{
-Exam results for six inner London Education Authorities.
+Student exam performance metrics.
 }
 \keyword{datasets}

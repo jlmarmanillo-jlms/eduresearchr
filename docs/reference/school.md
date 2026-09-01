@@ -1,6 +1,6 @@
-# school Dataset (CollegeScorecard)
+# school Dataset
 
-Information about institutions in the U.S. College Scorecard.
+Institutional metrics and school performance indicators.
 
 ## Usage
 
@@ -10,4 +10,8 @@ school
 
 ## Format
 
-Data frame: 11,300 rows, 25 variables.
+Data frame with institutional data.
+
+## Source
+
+U.S. Department of Education (College Scorecard metrics).

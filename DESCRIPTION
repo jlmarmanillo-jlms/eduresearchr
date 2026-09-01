@@ -2,14 +2,51 @@ Package: eduResearchR
 Type: Package
 Title: A Collection of Educational Datasets for Research and Statistical Analysis
 Version: 0.1.0
-Authors@R: 
+Authors@R: c(
     person(
-        given = "Jorge",
+        given = "Jorge Luis",
         family = "Marmanillo Santana",
-        role = c("aut", "cre"),
         email = "jlmarmanillo@gmail.com",
+        role = c("aut", "cre"),
         comment = c(ORCID = "0009-0003-4485-0744")
+    ),
+    person(
+        given = "Christian",
+        family = "Kleiber",
+        role = "ctb",
+        comment = "Author of the AER package; original source for CASchools and CollegeDistance."
+    ),
+    person(
+        given = "John",
+        family = "Fox",
+        role = "ctb",
+        comment = "Author of the carData package; original source for EducationLiteracy, ExamScores, and FirstYearGPA."
+    ),
+    person(
+        given = "Douglas",
+        family = "Bates",
+        role = "ctb",
+        comment = "Author of the MEMSS package; original source for MathAchieve."
+    ),
+    person(
+        given = "Thomas",
+        family = "Lumley",
+        role = "ctb",
+        comment = "Author of the survey package; original source for apipop."
+    ),
+    person(
+        given = "Jeremy",
+        family = "Finn",
+        role = "ctb",
+        comment = "Principal investigator; original source for STARplus (Project STAR)."
+    ),
+    person(
+        given = "Andrew",
+        family = "Raudenbush",
+        role = "ctb",
+        comment = "Researcher; original source for the classroom dataset."
     )
+  )
 Maintainer: Jorge Luis Marmanillo Santana <jlmarmanillo@gmail.com>
 Description: eduResearchR is an R data package that collects and organizes datasets
     related to education and educational research, sourced from various packages

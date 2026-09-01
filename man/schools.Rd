@@ -7,6 +7,9 @@
 \format{
 Data frame: 260 rows, 19 variables.
 }
+\source{
+Schools and Staffing Survey (SASS) / NCES.
+}
 \usage{
 schools
 }

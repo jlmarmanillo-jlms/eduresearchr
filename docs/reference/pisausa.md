@@ -1,6 +1,6 @@
 # pisausa Dataset
 
-2009 PISA results for students in the United States.
+International student assessment data for the USA.
 
 ## Usage
 
@@ -10,4 +10,8 @@ pisausa
 
 ## Format
 
-Data frame: 5,233 rows, 65 variables.
+Data frame with assessment scores and demographics.
+
+## Source
+
+OECD Programme for International Student Assessment (PISA).

@@ -23,7 +23,7 @@
 - [`pisausa`](https://github.com/jlmarmanillo-jlms/eduResearchR/reference/pisausa.md)
   : pisausa Dataset
 - [`school`](https://github.com/jlmarmanillo-jlms/eduResearchR/reference/school.md)
-  : school Dataset (CollegeScorecard)
+  : school Dataset
 - [`schoolProgram`](https://github.com/jlmarmanillo-jlms/eduResearchR/reference/schoolProgram.md)
   : schoolProgram Dataset
 - [`schools`](https://github.com/jlmarmanillo-jlms/eduResearchR/reference/schools.md)

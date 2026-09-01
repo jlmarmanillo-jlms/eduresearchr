@@ -1,6 +1,6 @@
 # schoolProgram Dataset
 
-High School and Beyond Survey data on student programs.
+Educational programs and institutional offerings data.
 
 ## Usage
 
@@ -10,4 +10,8 @@ schoolProgram
 
 ## Format
 
-Data frame: 200 rows, 11 variables.
+Data frame with program characteristics.
+
+## Source
+
+U.S. Department of Education.

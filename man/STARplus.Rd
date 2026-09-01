@@ -7,6 +7,9 @@
 \format{
 Data frame: 13,381 rows, 56 variables.
 }
+\source{
+Project STAR, primary investigator Jeremy Finn.
+}
 \usage{
 STARplus
 }

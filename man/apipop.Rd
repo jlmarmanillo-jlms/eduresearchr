@@ -7,10 +7,13 @@
 \format{
 Data frame: 6,194 rows, 37 variables.
 }
+\source{
+Academic Performance Index, provided via the survey package (Thomas Lumley).
+}
 \usage{
 apipop
 }
 \description{
-Student performance in California schools.
+Student performance in california schools.
 }
 \keyword{datasets}

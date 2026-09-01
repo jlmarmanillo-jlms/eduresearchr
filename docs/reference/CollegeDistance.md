@@ -1,6 +1,6 @@
 # CollegeDistance Dataset
 
-College distance data from the High School and Beyond survey.
+Data on high school seniors and college attendance decisions.
 
 ## Usage
 
@@ -10,4 +10,8 @@ CollegeDistance
 
 ## Format
 
-Data frame: 4,739 rows, 14 variables.
+Data frame with student-level educational and economic variables.
+
+## Source
+
+Econometric data source via the AER package (James H. Stock).

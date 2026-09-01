@@ -5,12 +5,15 @@
 \alias{CollegeDistance}
 \title{CollegeDistance Dataset}
 \format{
-Data frame: 4,739 rows, 14 variables.
+Data frame with student-level educational and economic variables.
+}
+\source{
+Econometric data source via the AER package (James H. Stock).
 }
 \usage{
 CollegeDistance
 }
 \description{
-College distance data from the High School and Beyond survey.
+Data on high school seniors and college attendance decisions.
 }
 \keyword{datasets}

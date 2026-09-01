@@ -5,12 +5,15 @@
 \alias{STUDENT}
 \title{STUDENT Dataset}
 \format{
-Data frame: 607 rows, 19 variables.
+Data frame with applied statistics subsets.
+}
+\source{
+OpenIntro Statistics educational data repository.
 }
 \usage{
 STUDENT
 }
 \description{
-College GPAs of students in an introductory statistics class.
+Student survey metrics and statistics.
 }
 \keyword{datasets}

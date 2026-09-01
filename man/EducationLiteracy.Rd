@@ -5,12 +5,15 @@
 \alias{EducationLiteracy}
 \title{EducationLiteracy Dataset}
 \format{
-Data frame: 193 rows, 4 variables.
+Data frame with social science indicators.
+}
+\source{
+Extracted from the carData package (John Fox).
 }
 \usage{
 EducationLiteracy
 }
 \description{
-Education spending and literacy rates for countries.
+Education and literacy survey metrics.
 }
 \keyword{datasets}

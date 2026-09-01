@@ -7,10 +7,13 @@
 \format{
 Data frame: 1,190 rows, 12 variables.
 }
+\source{
+Study of Instructional Improvement, research contributor Andrew Raudenbush.
+}
 \usage{
 classroom
 }
 \description{
-Classroom data in Chapter 4 of the Study of Instructional Improvement.
+classroom data in Chapter 4 of the study of Instructional Improvement.
 }
 \keyword{datasets}

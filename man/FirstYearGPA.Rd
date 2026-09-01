@@ -5,12 +5,15 @@
 \alias{FirstYearGPA}
 \title{FirstYearGPA Dataset}
 \format{
-Data frame: 219 rows, 10 variables.
+Data frame with student performance metrics.
+}
+\source{
+Extracted from the carData package (John Fox).
 }
 \usage{
 FirstYearGPA
 }
 \description{
-Predicting first-year college GPA for students.
+Academic performance data tracking first year university GPA.
 }
 \keyword{datasets}

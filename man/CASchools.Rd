@@ -5,12 +5,15 @@
 \alias{CASchools}
 \title{CASchools Dataset}
 \format{
-Data frame: 420 rows, 14 variables.
+Data frame with district-level educational data.
+}
+\source{
+Extracted from the AER package (Christian Kleiber & Achim Zeileis), based on Stock and Watson.
 }
 \usage{
 CASchools
 }
 \description{
-California Test Score Data on school performance and demographics.
+California test score data.
 }
 \keyword{datasets}

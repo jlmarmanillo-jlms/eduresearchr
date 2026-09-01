@@ -1,6 +1,6 @@
 # CASchools Dataset
 
-California Test Score Data on school performance and demographics.
+California test score data.
 
 ## Usage
 
@@ -10,4 +10,9 @@ CASchools
 
 ## Format
 
-Data frame: 420 rows, 14 variables.
+Data frame with district-level educational data.
+
+## Source
+
+Extracted from the AER package (Christian Kleiber & Achim Zeileis),
+based on Stock and Watson.

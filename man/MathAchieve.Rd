@@ -7,6 +7,9 @@
 \format{
 Data frame: 7,185 rows, 6 variables.
 }
+\source{
+High School and Beyond study, processed via the MEMSS package (Douglas Bates).
+}
 \usage{
 MathAchieve
 }

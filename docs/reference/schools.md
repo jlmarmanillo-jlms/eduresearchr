@@ -11,3 +11,7 @@ schools
 ## Format
 
 Data frame: 260 rows, 19 variables.
+
+## Source
+
+Schools and Staffing Survey (SASS) / NCES.

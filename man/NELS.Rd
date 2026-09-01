@@ -7,10 +7,13 @@
 \format{
 Data frame: 500 rows, 48 variables.
 }
+\source{
+National Center for Education Statistics (NCES).
+}
 \usage{
 NELS
 }
 \description{
-National Education Longitudinal Study (NELS) of 1988.
+National Education Longitudinal study (NELS) of 1988.
 }
 \keyword{datasets}

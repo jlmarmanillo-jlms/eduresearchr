@@ -1,6 +1,6 @@
 # FirstYearGPA Dataset
 
-Predicting first-year college GPA for students.
+Academic performance data tracking first year university GPA.
 
 ## Usage
 
@@ -10,4 +10,8 @@ FirstYearGPA
 
 ## Format
 
-Data frame: 219 rows, 10 variables.
+Data frame with student performance metrics.
+
+## Source
+
+Extracted from the carData package (John Fox).
