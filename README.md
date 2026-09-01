@@ -1,32 +1,37 @@
 # eduResearchR
 
-`eduResearchR` es un paquete de R diseñado para facilitar el acceso a una colección curada de 15 datasets educativos y de ciencias sociales, listos para la investigación y el análisis estadístico.
+`eduResearchR` is an R package designed to facilitate access to a curated collection of 15 educational and social science datasets, ready for research and statistical analysis.
 
-## Descripción
-Este paquete proporciona una estructura estandarizada para cargar y explorar datos de investigación, permitiendo a estudiantes y profesionales centrarse en el análisis cuantitativo sin necesidad de preprocesamiento complejo.
+## Description
+This package provides a standardized structure for loading and exploring research data, enabling students and professionals to focus on quantitative analysis without the need for complex preprocessing.
 
-## Instalación
-Puede instalar la versión de desarrollo del paquete con el siguiente comando en R:
+## Installation
+You can install the development version of the package with the following command in R:
 
+```r
 devtools::install_github("jlmarmanillo-jlms/eduResearchR", build_vignettes = TRUE)
+```
 
-## Uso
-Una vez instalado, cargue el paquete y cualquier dataset disponible:
-
+## Usage
+Once installed, load the package and any available dataset:
+```r
 library(eduResearchR)
 data("STARplus")
 head(STARplus)
+```
 
-## Viñeta Pedagógica
-Para consultar la guía metodológica detallada del paquete, ejecute:
-
+## Pedagogical vignette
+To consult the detailed methodological guide of the package, run:
+```r
 vignette("intro-eduResearchR", package = "eduResearchR")
+```
 
-## Autor
-**Jorge Luis Marmanillo Santana**  
-Mgtr. en Informática Educativa
+## Author
+Jorge Luis Marmanillo Santana
 
-## Dataset Sources and Descriptions
+M.Sc. in Educational Informatics
+
+## Dataset sources and descriptions
 The 15 datasets included in **`eduResearchR`** have been curated and organized from standard R packages to facilitate educational research and applied statistical analysis:
 
 * `apipop.rda`: Academic Performance Index student and school-level dataset.

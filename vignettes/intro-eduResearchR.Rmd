@@ -149,3 +149,5 @@ The graph allows researchers to visually examine whether differences in socioeco
 By bringing these datasets together in a single R package, `eduResearchR` facilitates access to educational data for statistical analysis, data visualization, teaching, empirical research, and quantitative educational studies.
 
 The package therefore provides a practical starting point for researchers and students who want to move from educational questions to evidence-based analysis using R.
+
+
